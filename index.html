@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'Achat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="shopping-cart">
+        <h2>Panier d'Achat</h2>
+        <ul class="cart-items">
+            <li class="cart-item">
+                <div class="item-info">
+                    <h3>Nom de l'article 1</h3>
+                    <p>€<span class="item-price">10.00</span></p>
+                </div>
+                <div class="item-actions">
+                    <button class="minus-btn">-</button>
+                    <span class="item-quantity">1</span>
+                    <button class="plus-btn">+</button>
+                    <button class="delete-btn">Supprimer</button>
+                    <button class="like-btn">♡</button>
+                </div>
+            </li>
+            <li class="cart-item">
+                <div class="item-info">
+                    <h3>Nom de l'article 2</h3>
+                    <p>€<span class="item-price">15.00</span></p>
+                </div>
+                <div class="item-actions">
+                    <button class="minus-btn">-</button>
+                    <span class="item-quantity">1</span>
+                    <button class="plus-btn">+</button>
+                    <button class="delete-btn">Supprimer</button>
+                    <button class="like-btn">♡</button>
+                </div>
+            </li>
+            <!-- Ajoutez d'autres articles selon les besoins -->
+        </ul>
+        <div class="cart-total">
+            <p>Total : €<span id="total-price">25.00</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
